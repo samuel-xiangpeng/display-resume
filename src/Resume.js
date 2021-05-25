@@ -51,7 +51,7 @@ const Resume = function () {
                                 <h3><i className='dot' />自定义函数库</h3>
                                 <div className='links'>
                                     <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目演示</a>
+                                    <a href="#/resume" target='_blank'>项目文档</a>
                                 </div>
                             </header>
                             <div className="item-bd"><span>项目描述: </span>自定义实现包括函数相关、数组相关、对象相关，字符串相关的工具函数, 类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、事件总线、消息订阅-发布、Promise。极大提升对原生JS核心技术的理解和编码能力！</div>

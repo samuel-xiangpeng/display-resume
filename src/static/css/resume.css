@@ -1,0 +1,308 @@
+.resume {
+    font-size: 16px;
+    font-family: 'Lucida Grande', 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'Helvetica Neue', 'Helvetica', 'PingFang SC', 'Microsoft YaHei', '微软雅黑', 'Arial,sans-serif';
+    position: relative;
+    width: 980px;
+    margin: 50px auto 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #c0c0c0;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    /* opacity: 0; */
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    /* background-color: aquamarine; */
+}
+
+
+/* 头部 */
+
+.resume-hd {
+    padding: 30px 50px;
+    color: #fff;
+    background-color: #00b38a;
+    /* overflow: hidden; */
+}
+
+
+/* 伪类清除浮动 */
+
+.resume-hd::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.resume-hd .title {
+    overflow: hidden;
+    border-bottom: 2px solid #00a982;
+    margin-bottom: 1rem;
+}
+
+.resume-hd .title .name-job {
+    transform: translateY(3rem);
+    float: left;
+}
+
+.resume-hd .title .passport {
+    float: right;
+    padding-right: 3rem;
+}
+
+
+/* 证件照区域 */
+
+.resume-hd .title .passport img {
+    width: 10rem;
+    border-radius: 2px;
+}
+
+
+/* 名字以及意向职位 */
+
+.resume-hd .title .name-job .name h1 {
+    font-size: 2.5em;
+}
+
+.resume-hd .title .name-job .name small {
+    font-size: 2rem;
+}
+
+
+/* 意向职位 */
+
+.resume-hd .title .name-job .job {
+    padding: 1rem 0;
+    letter-spacing: .2rem;
+}
+
+.resume-hd .info,
+.resume-hd .contact {
+    width: 50%;
+    padding: 2rem 0 1.3rem;
+}
+
+
+/* info */
+
+.resume-hd .info {
+    float: left;
+}
+
+.resume-hd .info h2 {
+    font-size: 1.7rem;
+    padding: .5rem;
+    font-weight: 400;
+}
+
+
+/* contact联系方式 */
+
+.resume-hd .contact {
+    float: right;
+}
+
+.resume-hd .contact ul li {
+    padding: .2rem 0;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.resume-hd .contact li i,
+.resume-hd .contact li a {
+    color: white;
+    margin-left: .5rem;
+}
+
+
+/*  */
+
+
+/* 主体 */
+
+.resume .resume-bd {
+    min-height: 200px;
+    padding: 1.2rem 4.3rem 3rem;
+    /* overflow: hidden; */
+    color: black;
+}
+
+.resume .resume-bd .item a {
+    color: black;
+}
+
+.resume .resume-bd section {
+    padding: 10px 18px;
+    box-sizing: border-box;
+}
+
+
+/* 简历主体通用头部 */
+
+.section-hd {
+    position: relative;
+    height: 4rem;
+    margin: 10px auto 8px;
+    overflow: hidden;
+}
+
+.section-hd .section-title-l {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 0;
+    left: 10rem;
+    border-top: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.section-hd .section-title-r {
+    right: 10rem;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    border-top: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.section-hd .section-title {
+    position: relative;
+    z-index: 1;
+    width: 24%;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 1rem 10px;
+    border-radius: 32px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+/* 项目经历 */
+
+.resume-bd .project {
+    width: 100%;
+}
+
+.project .section-bd {
+    overflow: hidden;
+}
+
+.section-bd .item {
+    padding: 1rem 2rem;
+}
+
+.section-bd .item .item-hd {
+    overflow: hidden;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.section-bd i.dot {
+    width: .5rem;
+    height: .5rem;
+    display: block;
+    border-radius: 100%;
+    background-color: #00b38a;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 1.5rem;
+}
+
+.section-bd .item-hd h3 {
+    float: left;
+    width: 60%;
+    font-size: 2.2rem;
+    text-align: left;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.section-bd .item-hd .links {
+    float: right;
+    width: 30%;
+    text-align: right;
+    transform: translateY(.2rem);
+}
+
+.section-bd .item-hd .links a {
+    margin-right: 1rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .8);
+}
+
+.section-bd .item-bd {
+    padding: 1rem .1rem;
+    line-height: 2.5rem;
+}
+
+.section-bd .item-bd span {
+    font-weight: 700;
+    margin-left: .2rem;
+}
+
+
+/* 相关技能描述 */
+
+.section-bd .section-list {
+    padding: .5rem 1rem;
+    line-height: 2.4rem;
+}
+
+.section-bd .section-list i.dot {
+    top: 1.5rem;
+}
+
+.section-bd .section-list li {
+    position: relative;
+    padding: .6rem 3rem .6rem 1.5rem;
+}
+
+
+/* 校园经历 */
+
+.campus .section-bd .item-hd small {
+    margin-left: 1rem;
+    color: #566270;
+}
+
+.campus .section-bd .item-hd .time {
+    float: right;
+}
+
+.self-review .section-bd p {
+    margin-top: 2rem;
+    text-indent: 2em;
+    line-height: 2.2rem;
+}
+
+@media print {
+    html {
+        background-color: white;
+    }
+    body {
+        padding-top: 0
+    }
+    .resume {
+        margin: 0 auto;
+        border-radius: 0;
+        box-shadow: none
+    }
+    .resume-hd {
+        padding: 30px 50px;
+        color: #fff;
+        background-color: #00b38a;
+    }
+    .resume-bd {
+        padding-top: 0;
+    }
+}

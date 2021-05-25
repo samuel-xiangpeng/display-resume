@@ -1,0 +1,240 @@
+@import "https://at.alicdn.com/t/font_2565439_qwroexj64q.css";
+.App {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* 滚动条配置 */
+
+::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px !important;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px !important;
+    background: #ffffff !important;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 5px !important;
+    box-shadow: inset 0 0 5px rgba(240, 240, 240, 0.5) !important;
+    background: rgba(63, 98, 131, 0.8) !important;
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(240, 240, 240, 0.5) !important;
+    border-radius: 0 !important;
+    background: rgba(240, 240, 240, 0.5) !important;
+    cursor: pointer !important;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgb(254, 250, 246);
+    color: rgb(35, 35, 32);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: rgb(254, 250, 246);
+}
+
+.nav .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3rem;
+}
+
+.nav .nav-list .nav-item {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.nav .nav-list .nav-item i {
+    margin-right: .3rem;
+}
+
+@media (max-width:1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width:980px) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 460px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+.Welcome-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome-section h1 {
+    font-size: 4.2rem;
+}
+
+.project-section {
+    text-align: center;
+    padding: 7rem 1.5rem;
+}
+
+@media (max-width: 460px) {
+    .project-section-header {
+        font-size: 1.5rem;
+    }
+}
+
+.project-section-header {
+    font-size: 3rem;
+    max-width: 640px;
+    margin: 3rem auto 4rem;
+    padding-bottom: 2rem;
+    border-bottom: .3rem solid rgb(35, 35, 32);
+}
+
+.project-section-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+.project-section-content .project-section-item {
+    flex-basis: 38rem;
+    /* height: 3rem; */
+    margin: .7rem 1rem;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border-radius: .7rem;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.project-section-content .project-section-item a {
+    display: block;
+}
+
+.project-section-content .project-section-item img {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-item-title {
+    font-size: 1.5rem;
+    padding: .5rem 0.5rem;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.footer-section h2 {
+    width: 50%;
+    padding: 15rem;
+    font-size: 4.2rem;
+}
+
+.footer-section center {
+    flex-basis: 3rem;
+    flex-shrink: 0;
+}
+
+@media (max-width: 460px) {
+    .footer-section h2 {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .footer-section center {
+        flex-basis: 2rem;
+        font-size: 1rem;
+        flex-shrink: 0;
+    }
+}
+
+
+/* 针对项目列表 */
+
+.project-section-item .li-hover {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(240, 240, 240, 0.5);
+    z-index: 12;
+    left: 0;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+
+.project-section-item .li-hover i {
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.code {
+    color: transparent;
+    transition: color 0.3s ease-out;
+}
+
+.project-section-item:hover .code {
+    color: #ff7f50;
+}
+
+.project-section-item:hover .li-hover {
+    opacity: 1;
+}
+
+.project-section-item .li-hover i:hover {
+    background-color: azure;
+    border-radius: 50%;
+    color: #ff7f50;
+}
+
+a:hover {
+    color: #ff7f50
+}

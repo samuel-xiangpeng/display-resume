@@ -48,7 +48,7 @@ const Resume = function () {
                     <div className="section-bd">
                         <div className="item">
                             <header className='item-hd'>
-                                <h3><i className='dot' />自定义函数库</h3>
+                                <h3><i className='dot' />自定义工具库</h3>
                                 <div className='links'>
                                     <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/toolroom" target='_blank'>项目源码</a>
                                     <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/toolroom/" target='_blank'>项目文档</a>
@@ -132,11 +132,11 @@ const Resume = function () {
                             <header className='item-hd'>
                                 <h3><i className='dot' />省县市三级联动</h3>
                                 <div className='links'>
-                                    <a href="#/resume" target='_blank'>项目源码</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/nodeStudy" target='_blank'>项目源码</a>
                                     {/* <a href="#/resume" target='_blank'>项目演示</a> */}
                                 </div>
                             </header>
-                            <div className="item-bd">这是一个由nodeJS开发后端接口返回数据，前端请求，实现省县市三级输入框数据的联动改变的功能效果。</div>
+                            <div className="item-bd">这是我在学习node.js过程中做的一个小案例，由nodeJS开发后端接口返回数据，前端ajax请求，实现省县市三级输入框数据的联动改变的功能效果。</div>
                         </div>
                     </div>
                 </section>

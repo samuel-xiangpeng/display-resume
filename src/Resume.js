@@ -99,10 +99,11 @@ const Resume = function () {
                     <div className="section-bd">
                         <ul className='section-list'>
                             <li><p className='section-content'><i className='dot' /> 掌握Web前端开发基本技能，熟悉W3C标准、HTML、CSS、页面布局、响应式布局等，领悟视觉与设计，重视页面交互与用户体验.</p></li>
-                            <li><p className='section-content'><i className='dot' /> 对JavaScript、各类UI组件库、JS类库、模板引擎、MV*框架、工程化工具等有着较熟练的实践和较深刻的感悟.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 熟悉前后端分离技术，包括 AJAX、跨域、前端路由等熟练掌握React全家桶的使用，包括React Router,Redux等</p></li>
                             <li><p className='section-content'><i className='dot' /> 对Node.js、模块化规范、数据可视化、性能优化、前端安全等也有一定的应用与思考.</p></li>
                             <li><p className='section-content'><i className='dot' /> 熟练使用ES6语法编程，追求代码高质量可维护性.</p></li>
                             <li><p className='section-content'><i className='dot' /> 熟练使用Git进行版本控制和代码托管、Markdown进行文档编写.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 了解部分图形图像软件（如Photoshop），对从设计转换为产品有一定的认识，可以进行简单的切图操作。</p></li>
                             <li><p className='section-content'><i className='dot' /> 时刻保持好奇心，具有一定的创新创造精神，持续关注业内前沿技术。工作上积极执行有责任心，具有良好的沟通合作能力、分析解决问题能力以及较强的学习能力.</p></li>
                         </ul>
                     </div>

@@ -50,33 +50,32 @@ const Resume = function () {
                             <header className='item-hd'>
                                 <h3><i className='dot' />自定义函数库</h3>
                                 <div className='links'>
-                                    <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目文档</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/toolroom" target='_blank'>项目源码</a>
+                                    <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/toolroom/" target='_blank'>项目文档</a>
                                 </div>
                             </header>
-                            <div className="item-bd"><span>项目描述: </span>自定义实现包括函数相关、数组相关、对象相关，字符串相关的工具函数, 类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、事件总线、消息订阅-发布、Promise。极大提升对原生JS核心技术的理解和编码能力！</div>
+                            <div className="item-bd"><span>项目描述: </span>自定义实现包括函数相关、数组相关、对象相关,字符串相关的工具函数, 类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、消息订阅-发布、Promise。极大提升对原生JS核心技术的理解和编码能力！</div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>
                                 <h3><i className='dot' />音乐仿站</h3>
                                 <div className='links'>
-                                    <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目演示</a>
+                                    <a rel="noreferrer" href="#/resume" target='_blank'>源码私有</a>
+                                    <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/games/music.com/#/" target='_blank'>项目演示</a>
                                 </div>
                             </header>
                             <div className="item-bd">
                                 <span>项目描述: </span>
                                 这是一个使用React框架，以及React-router构建单页面应用开发的PC端音乐网站。
-                                通过create-react-app 快速搭建开发环境,运用react.js中的指令和服务与后台接口对接，进行数据交互，进行页面渲染，实现功能 模块的判断。使用阿
-                                里矢量图标库以及antd组件库。
+                                通过create-react-app 快速搭建开发环境,运用react.js中的指令和服务与后台接口对接，进行数据交互，进行页面渲染，实现功能模块的判断。使用阿里矢量图标库以及antd组件库。
                             </div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>
                                 <h3><i className='dot' />Todos待办事项记事本</h3>
                                 <div className='links'>
-                                    <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目演示</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/todos-react" target='_blank'>项目源码</a>
+                                    <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/todos-react/" target='_blank'>项目演示</a>
                                 </div>
                             </header>
                             <div className="item-bd">
@@ -123,18 +122,18 @@ const Resume = function () {
                             <header className='item-hd'>
                                 <h3><i className='dot' />Games</h3>
                                 <div className='links'>
-                                    <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目演示</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/games" target='_blank'>项目源码</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/games" target='_blank'>项目演示</a>
                                 </div>
                             </header>
-                            <div className="item-bd">爱好琢磨一些有趣有意思的东西，所以自己会总结一些有意思的关于前端方面的知识然后自己去动手完成。Games是一个Demo仓库，这里面主要使用原生<font color='red'>Js，html，css</font>完成，里面存放着我自己感觉有意思的东西，比如使用css绘制动画，一些特效等。这些有趣的东西让我自学过程不在那么枯燥。</div>
+                            <div className="item-bd">爱好琢磨一些有趣有意思的东西，所以自己会总结一些有意思的关于前端方面的知识然后自己去动手完成。Games是一个Demo仓库，这里面主要使用原生Js，html，css完成，里面存放着我自己感觉有意思的东西，比如使用css绘制动画，一些特效等。这些有趣的东西让我自学过程不在那么枯燥。</div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>
                                 <h3><i className='dot' />省县市三级联动</h3>
                                 <div className='links'>
                                     <a href="#/resume" target='_blank'>项目源码</a>
-                                    <a href="#/resume" target='_blank'>项目演示</a>
+                                    {/* <a href="#/resume" target='_blank'>项目演示</a> */}
                                 </div>
                             </header>
                             <div className="item-bd">这是一个由nodeJS开发后端接口返回数据，前端请求，实现省县市三级输入框数据的联动改变的功能效果。</div>

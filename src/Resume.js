@@ -127,7 +127,7 @@ const Resume = function () {
                                     <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/games" target='_blank'>项目演示</a>
                                 </div>
                             </header>
-                            <div className="item-bd">爱好琢磨一些有趣有意思的东西，所以自己会总结一些有意思的关于前端方面的知识然后自己去动手完成。Games是一个Demo仓库，这里面主要使用原生Js，html，css完成，里面存放着我自己感觉有意思的东西，比如使用css绘制动画，一些特效等。这些有趣的东西让我自学过程不在那么枯燥。</div>
+                            <div className="item-bd">爱好琢磨一些有趣有意思的东西，所以自己会总结一些有意思的关于前端方面的知识然后自己去动手完成。Games是一个个人Demo仓库，这里面主要使用原生Js，html，css完成，里面存放着我自己感觉有意思的东西，比如使用css绘制动画，一些特效等。这些有趣的东西让我自学过程不再那么枯燥。</div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>

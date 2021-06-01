@@ -50,11 +50,11 @@ const Resume = function () {
                             <header className='item-hd'>
                                 <h3><i className='dot' />自定义工具库</h3>
                                 <div className='links'>
-                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/toolroom" target='_blank'>项目源码</a>
-                                    <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/toolroom/" target='_blank'>项目文档</a>
+                                    <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/tools" target='_blank'>项目源码</a>
+                                    <a rel="noreferrer" href="https://samuel-xiangpeng.github.io/tools/#/" target='_blank'>项目文档</a>
                                 </div>
                             </header>
-                            <div className="item-bd"><span>项目描述: </span>自定义实现包括函数相关、数组相关、对象相关,字符串相关的工具函数, 类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、消息订阅-发布、Promise。极大提升对原生JS核心技术的理解和编码能力！</div>
+                            <div className="item-bd"><span>项目描述: </span>自定义实现包括函数相关、数组相关、对象相关,字符串相关的工具函数, 类似流行的工具函数库lodash；还有手写ajax请求、Promise等。极大提升了我对<strong>原生JS</strong>核心技术的理解和编码能力！</div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>
@@ -66,8 +66,8 @@ const Resume = function () {
                             </header>
                             <div className="item-bd">
                                 <span>项目描述: </span>
-                                这是一个使用React框架，以及React-router构建单页面应用开发的PC端音乐网站。
-                                通过create-react-app 快速搭建开发环境,运用react.js中的指令和服务与后台接口对接，进行数据交互，进行页面渲染，实现功能模块的判断。使用阿里矢量图标库以及antd组件库。
+                                这是一个使用React框架，以及<strong>React-router</strong>构建单页面应用开发的PC端音乐网站。
+                                通过<strong>create-react-app</strong> 快速搭建开发环境,运用react.js中的指令和服务与后台接口对接，进行数据交互，进行页面渲染，实现功能模块的判断。使用阿里矢量图标库以及antd组件库。
                             </div>
                         </div>
                         <div className="item">
@@ -81,7 +81,7 @@ const Resume = function () {
                             <div className="item-bd">
                                 <span>项目描述: </span>
                                 这是个单页面的web端的待办事项小记事本。这是我从自己的需求出发，设计出的极简记事应用。
-该项目大量使用 React Hooks，让我对 Hooks 有了深刻的理解和应用。
+该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
                             </div>
                         </div>
                     </div>
@@ -98,13 +98,13 @@ const Resume = function () {
                     {/* 主体 */ }
                     <div className="section-bd">
                         <ul className='section-list'>
-                            <li><p className='section-content'><i className='dot' /> 掌握Web前端开发基本技能，熟悉W3C标准、HTML、CSS、页面布局、响应式布局等，领悟视觉与设计，重视页面交互与用户体验.</p></li>
-                            <li><p className='section-content'><i className='dot' /> 熟悉前后端分离技术，包括 AJAX、跨域、前端路由等熟练掌握React全家桶的使用，包括React Router,Redux等</p></li>
-                            <li><p className='section-content'><i className='dot' /> 对Node.js、模块化规范、数据可视化、性能优化、前端安全等也有一定的应用与思考.</p></li>
-                            <li><p className='section-content'><i className='dot' /> 熟练使用ES6语法编程，追求代码高质量可维护性.</p></li>
-                            <li><p className='section-content'><i className='dot' /> 熟练使用Git进行版本控制和代码托管、Markdown进行文档编写.</p></li>
-                            <li><p className='section-content'><i className='dot' /> 了解部分图形图像软件（如Photoshop），对从设计转换为产品有一定的认识，可以进行简单的切图操作。</p></li>
-                            <li><p className='section-content'><i className='dot' /> 时刻保持好奇心，具有一定的创新创造精神，持续关注业内前沿技术。工作上积极执行有责任心，具有良好的沟通合作能力、分析解决问题能力以及较强的学习能力.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 掌握Web前端开发基本技能，熟悉W3C标准、HTML、CSS、<strong>页面布局</strong>、响应式布局等，领悟视觉与设计，<strong>重视页面交互</strong>与用户体验.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 熟悉<strong>前后端分离</strong>技术,包括 <strong>AJAX</strong>、<strong>跨域</strong>、前端路由等,熟练掌握<strong>React全家桶</strong>的使用，包括React Router,Redux等.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 对<strong>Node.js</strong>、模块化规范、数据可视化、性能优化等也有一定的应用与思考.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 熟练使用ES6语法编程，追求代码高质量可维护性.掌握基本的<strong>webpac</strong>k打包技术.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 熟练使用<strong>Git</strong>进行版本控制和代码托管、<strong>Markdown</strong>进行文档编写.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 了解部分图形图像软件（如Photoshop），对从设计转换为产品有一定的认识，可以进行简单的切图操作.</p></li>
+                            <li><p className='section-content'><i className='dot' /> 时刻保持好奇心，具有一定的创新创造精神，<strong>持续关注业内前沿技术</strong>。工作上积极执行有责任心，具有良好的沟通合作能力、分析解决问题能力以及较强的学习能力.</p></li>
                         </ul>
                     </div>
                 </section>
@@ -137,7 +137,7 @@ const Resume = function () {
                                     {/* <a href="#/resume" target='_blank'>项目演示</a> */}
                                 </div>
                             </header>
-                            <div className="item-bd">这是我在学习node.js过程中做的一个小案例，由nodeJS开发后端接口返回数据，前端ajax请求，实现省县市三级输入框数据的联动改变的功能效果。</div>
+                            <div className="item-bd">这是我在学习node.js过程中做的一个小案例，由nodeJS开发后端接口返回数据，前端ajax请求，实现省县市三级输入框数据的联动改变的功能效果。这让我加深了对前后端分离技术以及跨域请求有了更深的理解。</div>
                         </div>
                     </div>
                 </section>
@@ -157,7 +157,7 @@ const Resume = function () {
                                 <h3><i className='dot' />校资助服务部<small>职位: 学生会干事</small></h3>
                                 <div className='time'>2017年9月~2018年6月</div>
                             </header>
-                            <div className="item-bd"><p>日常工作是协助老师整理关于学校学生资助服务方面的东西，以及处理一些学生贷款以及奖学金发放的问题，并且额外的对学校的自助服务部的公众号进行管理。</p></div>
+                            <div className="item-bd"><p>日常工作是协助老师整理关于学校学生资助服务方面的东西，以及处理一些学生贷款以及奖学金发放的问题，并且额外的对学校的资助服务部的公众号进行管理。</p></div>
                         </div>
                         <div className="item">
                             <header className='item-hd'>
@@ -170,10 +170,10 @@ const Resume = function () {
                         </div>
                         <div className="item">
                             <header className='item-hd'>
-                                <h3><i className='dot' />宁夏自治区大学生创业大赛</h3>
+                                <h3><i className='dot' />宁夏自治区大学生创新创业大赛</h3>
                                 <div className='time'>2018年4月~2018年5月</div>
                             </header>
-                            <div className="item-bd"><p>参加大学生创业大赛获得校级三等奖</p></div>
+                            <div className="item-bd"><p>这个赛事在全国每年都会举行，很荣幸在2018年跟小伙伴组队参加大学生创业大赛并且获得校级三等奖。这次比赛让我懂得在以后要敢想，更要去敢做，自己真正去做，去实现那才是真的有本事。</p></div>
                         </div>
                     </div>
                 </section>
@@ -191,7 +191,7 @@ const Resume = function () {
                         <p>我认真负责，能吃苦耐劳，能够很快的接受、适应和掌握新的事物。在工作中，我
                         的时间管理能力较强，能够认真负责的完成自己的工作。善于与人沟通，能很好的去处
                         理人际关系，生活方面，也能够和同学朋友很好的相处，互相帮助。同时，我能够严格
-要求自己，常总结以往和反省自身，并且能对未来进行规划</p>
+要求自己，常总结以往和反省自身，并且能对未来进行规划.</p>
                     </div>
                 </section>
             </section>

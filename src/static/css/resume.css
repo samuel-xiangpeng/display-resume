@@ -288,6 +288,11 @@
     line-height: 2.5rem;
 }
 
+.resume .resume-bd strong {
+    color: #F60;
+    font-weight: 500;
+}
+
 @media print {
     html {
         background-color: white;

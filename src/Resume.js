@@ -95,7 +95,7 @@ const Resume = function () {
                                 <h3><i className='dot' />Wink脚手架</h3>
                                 <div className='links'>
                                     <a rel="noreferrer" href="https://github.com/samuel-xiangpeng/wink-cli" target='_blank'>项目源码</a>
-                                    <a rel="noreferrer" href="#/resume" target='_blank'>项目演示</a>
+                                    {/*<a rel="noreferrer" href="#/resume" target='_blank'>项目演示</a>*/}
                                 </div>
                             </header>
                             <div className="item-bd">

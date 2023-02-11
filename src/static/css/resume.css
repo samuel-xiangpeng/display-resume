@@ -270,12 +270,12 @@
 
 /* 校园经历 */
 
-.campus .section-bd .item-hd small {
+.work .section-bd .item-hd small {
     margin-left: 1rem;
     color: #566270;
 }
 
-.campus .section-bd .item-hd .time {
+.work .section-bd .item-hd .time {
     float: right;
 }
 

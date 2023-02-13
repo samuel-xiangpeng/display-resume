@@ -23,7 +23,7 @@ const Resume = function () {
                 </section>
                 <section className="info">
                     <h2>男 /1998年08</h2>
-                    <h2>北方民族大学·本科/2021年毕业</h2>
+                    <h2>北方民族大学·本科/2017.09 - 2021.06</h2>
                 </section>
                 <section className="contact">
                     <ul>
@@ -55,10 +55,10 @@ const Resume = function () {
                         </div>
                         <div className="item">
                             <header className='item-hd'>
-                                <h3><i className='dot' />云智慧(北京)科技有限公司</h3>
+                                <h3><i className='dot' />北京云智互动信息技术有限公司</h3>
                                 <div className='time'>2021年6月~2022年12月</div>
                             </header>
-                            <div className="item-bd"><p>职位是前端开发工程师，主要技术栈：<strong>React</strong>, <strong>Webpack</strong>, <strong>Mobx</strong>。 日常工作是运用主流前端技术，协助完善公司组建库问题，积极提出修改意见。协助前后端开发，产品经理，运维工程师解决问题并且充分还原设计稿效果。OPPO出差期间，上线四五十余次，解决很多线上问题，保证平稳上线没有出重大线上事故。</p></div>
+                            <div className="item-bd"><p>职位是前端开发工程师，主要技术栈：<strong>React</strong>, <strong>Webpack</strong>, <strong>Mobx</strong>。 日常工作是运用主流前端技术，完成项目上的任务，协助完善公司组建库问题，积极提出修改意见。协助前后端开发，产品经理，运维工程师解决问题并且充分还原设计稿效果。OPPO出差期间，上线四五十余次，解决很多线上问题，保证平稳上线没有出重大线上事故。</p></div>
                         </div>
                     </div>
                 </section>
@@ -76,7 +76,7 @@ const Resume = function () {
                     <div className="section-bd">
                         <div className="item">
                             <header className='item-hd'>
-                                <h3><i className='dot' />ITSM(IT服务管理系统) <small>公司项目</small></h3>
+                                <h3><i className='dot' />IT服务管理系统(To B) <small>公司项目</small></h3>
                                 {/*<div className='links'>*/}
                                     {/*<a rel="noreferrer" href="https://github.com/samuel-xiangpeng/wink-cli" target='_blank'>项目源码</a>*/}
                                     {/*<a rel="noreferrer" href="#/resume" target='_blank'>项目演示</a>*/}
@@ -84,9 +84,19 @@ const Resume = function () {
                             </header>
                             <div className="item-bd">
                                 <span>项目描述: </span>
-                                这是一套帮助企业对IT系统的规划、研发、实施和运营进行有效管理的系统。主要技术栈是：<strong>React</strong>, <strong>Webpack</strong>, <strong>Mobx</strong>。
-                                <p>引入Formily表单解决方案，让表单字段联动之间的损耗降低，提升了表单的效率。引入了Mobx状态管理器，简化了redux的概念，让状态之间的监听更加高效易于维护。为适应公司国际化需求，使用react-i18next进行国际化开发。</p>
-                                <p>封装过大量的业务组件，比如按钮显示区域根据最大宽度显示多少个，超出出现滑动交互，这大大优化了用户的体验；大量数据量的下拉选择组件，进行虚拟滚动的实现，优化的下拉组件的性能。</p>
+                                这是一套帮助企业对IT系统的规划、研发、实施和运营进行有效管理的系统。
+                                <p>主要技术栈是：<strong>React</strong>, <strong>Webpack</strong>, <strong>Mobx</strong>，<strong>Antd v3</strong>。</p>
+                                <p><span>主要负责模块: </span></p>
+                                <p> 一 : 值班管理</p>
+                                <p>简介：值班管理分为我的值班，排班管理，班次管理，值班审批，值班情况五个模块，用户可以设置好班次后可以选择人员进行排班，排班时可以指定消息通知类型通知值班人员，比如飞书，短信等。当值班人员临时有事可以填写原因申请换班，由被申请换班人员审批后进行换班值班。值班结束时填写值班日志申请交接班申请。</p>
+                                <p>难点：1. 提取业务性强的值班信息填写内容组件，为其他模块复用。</p>
+                                <p style={{marginLeft: "48px"}}>2.不同页面模块之间数据通信问题。</p>
+                                <p> 二 : 工单管理</p>
+                                <p>简介：用户通过工单管理可以选择可排序的自定义筛选器或者自定义列，列可以拖拽并且保存，可以在下次进入页面时展示出来上次的筛选结果，还可以在创建新的视图时保选择初始条件。</p>
+                                <p>难点：1. 选择筛选条件列表如果出现大量节点数据时卡顿问题。</p>
+                                <p style={{marginLeft: "48px"}}>2. 筛选组件之间的数据联动，如果出现很多筛选框之间联动不流畅。</p>
+                                {/* 引入Formily表单解决方案，让表单字段联动之间的损耗降低，提升了表单的效率。引入了Mobx状态管理器，简化了redux的概念，让状态之间的监听更加高效易于维护。为适应公司国际化需求，使用react-i18next进行国际化开发。 */}
+                                {/*<p>封装过大量的业务组件，比如按钮显示区域根据最大宽度显示多少个，超出出现滑动交互，这大大优化了用户的体验；大量数据量的下拉选择组件，进行虚拟滚动的实现，优化的下拉组件的性能。</p>*/}
                             </div>
                         </div>
                         {/* Wink脚手架 */}
